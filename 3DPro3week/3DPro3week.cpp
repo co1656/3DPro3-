@@ -36,11 +36,8 @@ int main(void)
 
     while (!glfwWindowShouldClose(window))
     {
-        float ratio;
         int width, height;
         glfwGetFramebufferSize(window, &width, &height);
-        ratio = width / (float)height;
-
         glClearColor(.0f, 0.0f, 0.0f, 0.1f);
         glClear(GL_COLOR_BUFFER_BIT);
 
