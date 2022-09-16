@@ -45,7 +45,7 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
         glBegin(GL_LINE_STRIP);
-        for (float i = 0; i < 360; i++)
+        for (float i = 0; i <= 360; i++)
         {
             double  x, y;
             x = 1 * cos(glm::radians(i));
